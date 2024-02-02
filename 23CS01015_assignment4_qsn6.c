@@ -23,7 +23,7 @@ int main()
         printf("%d * %d = %d", num1, num2, num1 * num2);
         break;
     case '/':
-        printf("%d / %d = %d", num1, num2, num1 / num2);
+        printf("%d / %d = %f", num1, num2, (float)num1 /(float) num2);
         break;
 
     default:
