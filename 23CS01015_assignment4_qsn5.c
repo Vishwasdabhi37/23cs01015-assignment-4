@@ -10,7 +10,6 @@ int main()
         printf("Incorrect input.\n");
         scanf("%d", &num);
     }
-    int count = 0;
     int temp = num;
     int d1, d2, d3;
     d1 = temp % 10;
